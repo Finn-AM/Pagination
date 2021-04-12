@@ -1,0 +1,29 @@
+.pagination {
+  display: inline;
+  margin: 0 0.3rem;
+}
+
+.pagination:first-child {
+  margin-left: 0;
+}
+
+.pagination:last-child {
+  margin-right: 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 0 8px;
+  background-color: black;
+}
+
+.pagination a:hover {
+  opacity: 0.7;
+}
+
+.pagination__container {
+  background-color: greenyellow;
+}
